@@ -3,6 +3,7 @@ import AddTasks from './AddTasks'
 import ShowTask from './ShowTask'
 
 const App = () => {
+ 
   const [tasks, setTasks] = useState([]);
 
   const handleAddTask = (text) => {

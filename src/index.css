@@ -63,6 +63,7 @@ input {
   border-radius: 4px;
   width: 100%;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .cir {
@@ -121,7 +122,8 @@ button:hover {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  padding: 5px 8px;
+  font-size: 15px;
+  padding: 15px 8px;
 }
 
 .remove-btn:hover {
